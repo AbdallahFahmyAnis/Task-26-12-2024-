@@ -1,0 +1,22 @@
+﻿@{
+    var result = ViewData["Result"] as string; // Retrieve the result from ViewData
+}
+
+
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="UploadJsonFile">
+    <input type="file" name="file" accept=".json" />
+    <button type="submit">Upload</button>
+</form>
+
+
+
+<h1>Upload Result</h1>
+
+@if (!string.IsNullOrEmpty(result))
+{
+    <p>@result</p>  <!-- Display the result -->
+}
+else
+{
+    <p>No result to display.</p>
+}

@@ -1,0 +1,10 @@
+[
+  { "word": "1", "bbox": { "x": 240, "y": 20, "width": 10, "height": 15 }},
+  { "word": "This", "bbox": { "x": 10, "y": 20, "width": 40, "height": 15 }},
+  { "word": "is", "bbox": { "x": 55, "y": 20, "width": 20, "height": 15 }},
+  { "word": "Bye", "bbox": { "x": 5, "y": 60, "width": 40, "height": 15 }},
+  { "word": "from", "bbox": { "x": 140, "y": 20, "width": 50, "height": 15 }},
+  { "word": "line", "bbox": { "x": 195, "y": 20, "width": 40, "height": 15 }},
+  { "word": "a", "bbox": { "x": 80, "y": 20, "width": 10, "height": 15 }},
+  { "word": "text", "bbox": { "x": 95, "y": 20, "width": 40, "height": 15 }}
+]
